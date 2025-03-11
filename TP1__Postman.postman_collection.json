@@ -1,0 +1,305 @@
+{
+	"info": {
+		"_postman_id": "78987026-a9fc-4fe9-be98-405572ed45b4",
+		"name": "TP1__Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "OMBd API",
+			"item": [
+				{
+					"name": "2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?apikey=df4c3029&s=cars",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "df4c3029"
+								},
+								{
+									"key": "s",
+									"value": "cars"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?apikey=df4c3029&s=hunger",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "df4c3029"
+								},
+								{
+									"key": "s",
+									"value": "hunger"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?apikey=df4c3029&t=monsters%2C+inc",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "df4c3029"
+								},
+								{
+									"key": "t",
+									"value": "monsters%2C+inc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4b",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg",
+							"protocol": "https",
+							"host": [
+								"m",
+								"media-amazon",
+								"com"
+							],
+							"path": [
+								"images",
+								"M",
+								"MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?apikey=df4c3029&t=rocky-IV",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "df4c3029"
+								},
+								{
+									"key": "t",
+									"value": "rocky-IV"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.omdbapi.com/?apikey=df4c3029&i=tt0067992",
+							"protocol": "https",
+							"host": [
+								"www",
+								"omdbapi",
+								"com"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "df4c3029"
+								},
+								{
+									"key": "i",
+									"value": "tt0067992"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PokéAPI",
+			"item": [
+				{
+					"name": "1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/pikachu/",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"pikachu",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/type/",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"type",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/150/",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"150",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/Charizard/",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"Charizard",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/Bulbasaur/",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"Bulbasaur",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
